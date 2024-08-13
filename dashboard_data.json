@@ -1,0 +1,114 @@
+{
+    "warehouses": [
+        {
+            "id": 1,
+            "name": "Default Warehouse"
+        }
+    ],
+    "sales": {
+        "headers": {},
+        "original": {
+            "data": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "days": [
+                "2024-02-29",
+                "2024-03-01",
+                "2024-03-02",
+                "2024-03-03",
+                "2024-03-04",
+                "2024-03-05",
+                "2024-03-06"
+            ]
+        },
+        "exception": null
+    },
+    "purchases": {
+        "headers": {},
+        "original": {
+            "data": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "days": [
+                "2024-02-29",
+                "2024-03-01",
+                "2024-03-02",
+                "2024-03-03",
+                "2024-03-04",
+                "2024-03-05",
+                "2024-03-06"
+            ]
+        },
+        "exception": null
+    },
+    "payments": {
+        "headers": {},
+        "original": {
+            "payment_sent": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "payment_received": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "days": [
+                "2024-02-29",
+                "2024-03-01",
+                "2024-03-02",
+                "2024-03-03",
+                "2024-03-04",
+                "2024-03-05",
+                "2024-03-06"
+            ]
+        },
+        "exception": null
+    },
+    "customers": {
+        "headers": {},
+        "original": [],
+        "exception": null
+    },
+    "product_report": {
+        "headers": {},
+        "original": [],
+        "exception": null
+    },
+    "report_dashboard": {
+        "headers": {},
+        "original": {
+            "products": [],
+            "stock_alert": [],
+            "report": {
+                "today_sales": "0.00",
+                "return_sales": "0.00",
+                "today_purchases": "0.00",
+                "return_purchases": "0.00"
+            },
+            "last_sales": []
+        },
+        "exception": null
+    }
+}

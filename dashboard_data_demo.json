@@ -1,0 +1,259 @@
+{
+    "warehouses": [
+        {
+            "id": 1,
+            "name": "Warehouse 1"
+        },
+        {
+            "id": 2,
+            "name": "Warehouse 2"
+        }
+    ],
+    "sales": {
+        "headers": {},
+        "original": {
+            "data": [
+                1736,
+                1650,
+                1874.8,
+                1792.8,
+                2648,
+                2320,
+                1780
+            ],
+            "days": [
+                "2024-03-03",
+                "2024-03-04",
+                "2024-03-05",
+                "2024-03-06",
+                "2024-03-07",
+                "2024-03-08",
+                "2024-03-09"
+            ]
+        },
+        "exception": null
+    },
+    "purchases": {
+        "headers": {},
+        "original": {
+            "data": [
+                2243,
+                2304,
+                2960,
+                2716,
+                2640,
+                2270,
+                1160
+            ],
+            "days": [
+                "2024-03-03",
+                "2024-03-04",
+                "2024-03-05",
+                "2024-03-06",
+                "2024-03-07",
+                "2024-03-08",
+                "2024-03-09"
+            ]
+        },
+        "exception": null
+    },
+    "payments": {
+        "headers": {},
+        "original": {
+            "payment_sent": [
+                640,
+                2270,
+                1000,
+                3066,
+                2000,
+                960,
+                1888
+            ],
+            "payment_received": [
+                0,
+                0,
+                1736,
+                1000,
+                1792.8,
+                2000,
+                1780
+            ],
+            "days": [
+                "2024-03-03",
+                "2024-03-04",
+                "2024-03-05",
+                "2024-03-06",
+                "2024-03-07",
+                "2024-03-08",
+                "2024-03-09"
+            ]
+        },
+        "exception": null
+    },
+    "customers": {
+        "headers": {},
+        "original": [
+            {
+                "name": "walk-in-customer",
+                "value": 2
+            },
+            {
+                "name": "Thomas M. Martin",
+                "value": 2
+            },
+            {
+                "name": "Beverly B. Huber",
+                "value": 1
+            },
+            {
+                "name": "Phyliss J. Polite",
+                "value": 1
+            },
+            {
+                "name": "Fred C. Rasmussen",
+                "value": 1
+            }
+        ],
+        "exception": null
+    },
+    "product_report": {
+        "headers": {},
+        "original": [
+            {
+                "name": "Macbook pro",
+                "value": 4
+            },
+            {
+                "name": "sunglasses",
+                "value": 4
+            },
+            {
+                "name": "earphones",
+                "value": 3
+            },
+            {
+                "name": "Banana",
+                "value": 2
+            },
+            {
+                "name": "Strawberry",
+                "value": 2
+            }
+        ],
+        "exception": null
+    },
+    "report_dashboard": {
+        "headers": {},
+        "original": {
+            "products": [
+                {
+                    "name": "Macbook pro",
+                    "total_sales": 4,
+                    "total": 6000
+                },
+                {
+                    "name": "sunglasses",
+                    "total_sales": 4,
+                    "total": 1360
+                },
+                {
+                    "name": "earphones",
+                    "total_sales": 3,
+                    "total": 956
+                },
+                {
+                    "name": "Banana",
+                    "total_sales": 2,
+                    "total": 546
+                },
+                {
+                    "name": "Strawberry",
+                    "total_sales": 2,
+                    "total": 480
+                }
+            ],
+            "stock_alert": [
+                {
+                    "code": "70171027",
+                    "quantity": 10,
+                    "name": "Banana",
+                    "warehouse": "Warehouse 2",
+                    "stock_alert": 10
+                },
+                {
+                    "code": "80256894",
+                    "quantity": 47,
+                    "name": "Orange",
+                    "warehouse": "Warehouse 1",
+                    "stock_alert": 50
+                },
+                {
+                    "code": "80256894",
+                    "quantity": 47,
+                    "name": "Orange",
+                    "warehouse": "Warehouse 2",
+                    "stock_alert": 50
+                }
+            ],
+            "report": {
+                "today_sales": "1,780.00",
+                "return_sales": "0.00",
+                "today_purchases": "1,160.00",
+                "return_purchases": "0.00"
+            },
+            "last_sales": [
+                {
+                    "Ref": "SL_1117",
+                    "statut": "pending",
+                    "client_name": "Thomas M. Martin",
+                    "warehouse_name": "Warehouse 1",
+                    "GrandTotal": 1736,
+                    "paid_amount": 1736,
+                    "due": 0,
+                    "payment_status": "paid"
+                },
+                {
+                    "Ref": "SL_1116",
+                    "statut": "completed",
+                    "client_name": "walk-in-customer",
+                    "warehouse_name": "Warehouse 2",
+                    "GrandTotal": 1650,
+                    "paid_amount": 1000,
+                    "due": 650,
+                    "payment_status": "partial"
+                },
+                {
+                    "Ref": "SL_1115",
+                    "statut": "ordered",
+                    "client_name": "Fred C. Rasmussen",
+                    "warehouse_name": "Warehouse 2",
+                    "GrandTotal": 1874.8,
+                    "paid_amount": 0,
+                    "due": 1874.8,
+                    "payment_status": "unpaid"
+                },
+                {
+                    "Ref": "SL_1114",
+                    "statut": "completed",
+                    "client_name": "Phyliss J. Polite",
+                    "warehouse_name": "Warehouse 2",
+                    "GrandTotal": 1792.8,
+                    "paid_amount": 1792.8,
+                    "due": 0,
+                    "payment_status": "paid"
+                },
+                {
+                    "Ref": "SL_1113",
+                    "statut": "pending",
+                    "client_name": "Thomas M. Martin",
+                    "warehouse_name": "Warehouse 1",
+                    "GrandTotal": 2648,
+                    "paid_amount": 0,
+                    "due": 2648,
+                    "payment_status": "unpaid"
+                }
+            ]
+        },
+        "exception": null
+    }
+}

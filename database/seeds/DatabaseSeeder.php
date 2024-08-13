@@ -17,9 +17,9 @@ class DatabaseSeeder extends Seeder
     {
         // Tableau des locataires avec leurs domaines respectifs
         $tenants = [
-            ['id' => 'test', 'name' => 'test', 'domain' => 'test.chine.net'],
-            ['id' => 'mkl', 'name' => 'mkl', 'domain' => 'mkl.chine.net'],
-            ['id' => 'mkl2', 'name' => 'mkl2', 'domain' => 'mkl2.chine.net']
+            ['id' => 'gestion', 'name' => 'gestion', 'domain' => 'gestion.nigerdev.com'],
+            ['id' => 'kirikou', 'name' => 'kirikou', 'domain' => 'kirikou.nigerdev.com'],
+
         ];
 
         // Fonction pour exécuter les Seeders pour un locataire donné
